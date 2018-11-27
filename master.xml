@@ -8,8 +8,21 @@
 Your sources have been sync'd successfully.
   </notice>
 
-  <project path="src/scripts" name="coreos/scripts"
+  <!-- changed -->
+
+  <project path="src/scripts" 
+           name="corefazz/scripts"
            groups="minilayout" />
+  
+  <project path="src/third_party/corefazz-portage-stable"
+           name="corefazz/portage-stable"
+           groups="minilayout" />
+
+  <project path="src/third_party/corefazz-coreos-overlay"
+           name="corefazz/coreos-overlay"
+           groups="minilayout" />
+
+  <!-- upstream -->
 
   <project path="src/third_party/portage-stable"
            name="coreos/portage-stable"
