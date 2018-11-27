@@ -14,11 +14,11 @@ Your sources have been sync'd successfully.
            name="corefazz/scripts"
            groups="minilayout" />
   
-  <project path="src/third_party/corefazz-portage-stable"
+  <project path="src/third_party/portage-stable"
            name="corefazz/portage-stable"
            groups="minilayout" />
 
-  <project path="src/third_party/corefazz-coreos-overlay"
+  <project path="src/third_party/coreos-overlay"
            name="corefazz/overlay"
            groups="minilayout" />
 
